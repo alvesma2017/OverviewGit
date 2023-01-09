@@ -2,10 +2,11 @@
 NOMENCLATURA DOS REPOS:
 
 XXX-YYYYY-ZZZZZ
+XXX_YYYYY_ZZZZZ
 
 XXX = Sigla que identifica a solução / Nome do Projeto / Plataforma (prefixo de 3 posições).
 YYYYYY = Nome do sub-produto do Projeto.
-ZZZZZZ = Tecnologia / função no projeto
+ZZZZZZ = Tecnologia / função no projeto.
 
 Exemplo: FLX-SALDO-SERVICE
 
@@ -34,6 +35,8 @@ Arquivos ESPECIAIS DO GIT:
 
 Arquivo README : READMEor README.txtor README.mdetc. é um arquivo que responde o quê, porquê e como do projeto. O GitHub reconhecerá e exibirá automaticamente os READMEvisitantes do repositório. Aqui está uma lista incrível para arquivos leia-me mais profissionais.
 
+gitignore é um arquivo de texto que diz ao Git quais arquivos ou pastas ele deve ignorar em um projeto. Um arquivo . gitignore local geralmente é colocado no diretório raiz de um projeto. Você também pode criar um arquivo
+
 LICENSE File : LICENSEor LICENSE.txtor LICENSE.mdetc. é um arquivo que explica o licenciamento legal, como quaisquer direitos, restrições, regulamentos etc.
 
 CHANGELOG File : CHANGELOGor CHANGELOG.txtor CHANGELOG.mdetc. é um arquivo que descreve o que está acontecendo no repositório. Aumentos de número de versão, atualizações de software, correções de bugs... são exemplos do conteúdo do arquivo.
@@ -53,8 +56,6 @@ CONTRIBUTING File: CONTRIBUTING é um arquivo que explica como as pessoas devem 
 AGRADECIMENTOS Arquivo:ACKNOWLEDGMENTS ou ACKNOWLEDGMENTS.txtou ACKNOWLEDGMENTS.mdetc. é um arquivo que descreve trabalhos relacionados, como outros projetos que são dependências, ou bibliotecas, ou módulos, ou possuem seus próprios direitos autorais ou licenças que você deseja incluir em seu projeto.
 
 Arquivo CODEOWNERS: CODEOWNERS é um arquivo que define os indivíduos ou equipes responsáveis ​​pelo código em um repositório. Os proprietários de código são solicitados automaticamente para revisão quando alguém abre uma solicitação pull que modifica o código de sua propriedade. Quando alguém com permissões de administrador ou proprietário habilitou revisões obrigatórias, ele também pode, opcionalmente, exigir a aprovação de um proprietário de código antes que o autor possa mesclar uma solicitação pull no repositório.
-
-Ficheiro FUNDING : funding.ymlé um ficheiro para angariar fundos ou apoiar o seu projecto.
 
 Arquivo ISSUE_TEMPLATE: quando você adiciona um modelo de problema ao seu repositório, os colaboradores do projeto verão automaticamente o conteúdo do modelo no corpo do problema. Os modelos personalizam e padronizam as informações que você deseja incluir quando os contribuidores abrem questões. Para adicionar vários modelos de problema a um repositório, crie um ISSUE_TEMPLATE/diretório na raiz do projeto. Nesse ISSUE_TEMPLATE/diretório, você pode criar quantos modelos de pendências precisar, por exemplo ISSUE_TEMPLATE/bugs.md. Esta lista contém vários modelos para problemas e pull requests.
 

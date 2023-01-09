@@ -14,6 +14,6 @@ GITFLOW
 
  - BRANCH MASTER (código em PRD / sem bugs conhecidos)
     - BRANCH DEVELOP (time esta trabalhando para deixar o produto o mais estável e confiável possível)
-    - BRANCH FEATURE (implementação de novas funcionalidades, criadas a partir da branch develop. Padrão: feature/nova-implementacao)
+    - BRANCH FEATURE (implementação de novas funcionalidades, criadas a partir da branch develop. Padrão: feature/nova-implementacao - NUMERO DA US)
     - BRANCH HOT FIX (designada a corrigir bugs em PRD)
     - BRANCH RELEASE (branch intermédiária entre develop e master - é a branch que sobe para homologação)

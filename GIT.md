@@ -37,7 +37,6 @@ git push origin --delete [nome da branch] = Deleta uma branch remota
 git checkout -b [nome da branch] = Cria uma nova branch e muda para ela
 git checkout -b [nome da branch] origin/[nome da branch] = Clona uma branch remota e muda para ela
 git checkout [nome da branch] = Seleciona uma branch
-git merge [nome da branch] = Faz um merge de uma branch na branch atual
 git merge [source branch] [branch alvo] = Faz um merge de uma branch em outra branch
 git push origin [nome da branch] = Enviar uma branch para seu repositório remoto
 git pull origin [nome da branch] = Recebe alterações do repositório remoto
